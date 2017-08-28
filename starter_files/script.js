@@ -15,13 +15,14 @@ Answer: This function should return the number 18406.
 */
 let numberArray = [ 23, 234, 64 , 89, 2, 756, 3, 58, 674, 32, 756, 23, 6 ];
 
-function getBigNumber('01, bigNumber');{
-    let finalValue=[18406]
-    for(let i=0; i< numberArray.length; i++){
-        if (NumberArray[23, 234, 64 , 89, 2, 756, 3, 58, 674, 32, 756, 23, 6] < finalValue[18406]) {
-             console.log (i);
+function getBigNumber(BigNumber) { 
+    let finalValue= {}
+    for(let i = 0; i< numberArray.length; i++) {
+        if (NumberArray[i] .id === finalValue) {
+            finalValue = numberArray[i]         
+        }
     }
-       
+    return getBigNumber   
 
 
 /*
@@ -101,22 +102,22 @@ The solution file contains two ways to accomplish this task.
 Answer: This function should output the string "*\n**\n***\n****\n*****\n"
 */
 
-let triangle_test= printTriangle();
-let triangle_result= "*\n**\n***\n****\n*****\n*";
+function printTriangle() {
+let triangle_result = "*\n**\n***\n****\n*****\n*";
 {
 
     let row = "";
     let triangle = "";
 
     for( let i = 0; i < 5; i++ ){
-        row += "*";
-        triangle += row + "\n";
+        row += "*"
+        triangle += row + "\n"
     }
 
-    return triangle;
+    return triangle
 }
 
-let printTriangle= printTriangle();
+function printTriangle() {
 }
 
 /*
@@ -141,23 +142,33 @@ Answer: This function should return:
 ]
 */
 
-let matrix = [
-    [ "a", "b", "c" ],
-    [ "d", "e", "f" ],
-    [ "g", "h", "i" ]
-];
-let transpose_test= transpose();
-let transpose_result= [
-    ["a","d","g"],
-    ["b","e","h"],
-    ["c","f","i"]
-];
+// let matrix = [
+//     [ "a", "b", "c" ],
+//     [ "d", "e", "f" ],
+//     [ "g", "h", "i" ]
+// ];
+// let transpose_test= transpose();
+// let transpose_result= [
+//     ["a","d","g"],
+//     ["b","e","h"],
+//     ["c","f","i"]
+// ];
 
-console.log(transpose(04,(function(tt,tr){
-    if(!arraysMatch(tt,tr)){
-    for( let i= 0; i< tt.length; i++){
-        if(!arraysMatch(tt[i],tr))
+// console.log(transpose(04,(function(tt,tr){
+//     if(!arraysMatch(tt,tr)){
+//     for( let i= 0; i< tt.length; i++){
+//         if(!arraysMatch(tt[i],tr))
     
     
-    let newMatrix = [];
-    // Your answer goes here:
+//     let newMatrix = []
+function getMatrix () {
+    return matrix
+}
+function getMatrix () {
+    let chosenMatrix = {}
+    for (let i = 0; i < matrix.lenth; i++) {
+        if (matrix [i],tr ) {
+            
+        }
+        console.log(getMatrix[3] );
+
