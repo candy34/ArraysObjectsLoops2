@@ -15,16 +15,16 @@ Answer: This function should return the number 18406.
 */
 let numberArray = [ 23, 234, 64 , 89, 2, 756, 3, 58, 674, 32, 756, 23, 6 ];
 
-function getBigNumber(BigNumber) { 
+function getBigNumber(BigNumber) {
     let finalValue= {}
     for(let i = 0; i< numberArray.length; i++) {
-        if (NumberArray[i] .id === finalValue) {
-            finalValue = numberArray[i]         
+        if (numberArray[i] .id === finalValue) {
+            finalValue = numberArray[i]
         }
     }
-    return getBigNumber   
+    return getBigNumber
 
-
+}
 /*
 2. The "people" array contains a list of objects. Each object has "name" and "age" properties. Iterate over "people" and evaluate each object. If "age" is less than 18, add a "status" property with the value of "minor" to that object. If "age" is over 65, add a "status" property of "senior", else add a "status" property of "adult". Return "people".
 
@@ -74,7 +74,7 @@ function checkPeopleStatus(){
     }
     return people;
 }
-(peopleStatus_test, peopleStatus_result), peopleStatus_test);
+
 
 
 
@@ -104,7 +104,7 @@ Answer: This function should output the string "*\n**\n***\n****\n*****\n"
 
 function printTriangle() {
 let triangle_result = "*\n**\n***\n****\n*****\n*";
-{
+
 
     let row = "";
     let triangle = "";
@@ -117,8 +117,7 @@ let triangle_result = "*\n**\n***\n****\n*****\n*";
     return triangle
 }
 
-function printTriangle() {
-}
+
 
 /*
 4. The "matrix" array contains arrays of letters. "matrix" is an array of arrays. Nested arrays are sometimes referred to as "multi-dimensional" array. To access information from a multi-dimensional array, use bracket notation.
@@ -158,17 +157,14 @@ Answer: This function should return:
 //     if(!arraysMatch(tt,tr)){
 //     for( let i= 0; i< tt.length; i++){
 //         if(!arraysMatch(tt[i],tr))
-    
-    
-//     let newMatrix = []
-function getMatrix () {
-    return matrix
-}
-function getMatrix () {
-    let chosenMatrix = {}
-    for (let i = 0; i < matrix.lenth; i++) {
-        if (matrix [i],tr ) {
-            
-        }
-        console.log(getMatrix[3] );
 
+
+//     let newMatrix = []
+
+function transpose_test() {
+    let matrix = {tt,tr,}
+
+}
+    for (let i = 0; i < test.lenth; i++) {
+       console.log (i);
+    }
